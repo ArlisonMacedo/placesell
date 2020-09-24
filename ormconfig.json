@@ -2,10 +2,10 @@
   "synchronize": true,
     "logging": false,
     "entities": [
-        "src/entity/*.ts"
+        "dist/entity/*.ts"
     ],
     "migrations": [
-        "src/migration/*.ts"
+        "dist/migration/*.ts"
     ],
     "subscribers": [
         "src/subscriber/*.ts"
@@ -16,5 +16,5 @@
         "subscribersDir": "src/subscriber"
     },
     "type": "sqlite",
-    "database": "src/database/database.sqlite"
+    "database": "dist/database/database.sqlite"
 }
