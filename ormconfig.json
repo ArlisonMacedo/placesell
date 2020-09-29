@@ -15,6 +15,6 @@
         "migrationsDir": "src/migration",
         "subscribersDir": "src/subscriber"
     },
-    "type": "sqlite",
-    "database": "dist/database/database.sqlite"
+    "type": "postgres",
+    "url": "postgres://oqeqffgl:ccyB1WeZGEKNzZiG6rO8TxySJQ49-x4X@lallah.db.elephantsql.com:5432/oqeqffgl"
 }
